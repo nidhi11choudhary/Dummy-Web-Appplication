@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="Description" content="....">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+         <header>
+           <div class="logo">
+               <a href="index.html">
+                   <img src="images/logo.png" alt="logo" width="200px"> 
+               </a>
+           </div>
+           <div class="search">
+            <form>
+                <input type="search" name= "search" placeholder="Search key..">
+                <input type="submit" value="GO">
+            </form>
+            </div>
+            <div class="clear-fix"></div>
+       <nav class="main-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Service</a>
+                <ul class="drop">
+                    <li><a href="services/serviceone.html">Service One</a></li>
+                    <li><a href="services/servicetwo.html">Service Two</a></li>
+                    <li> <a href="services/servicethree.html">Service Three</a></li>
+                 </li>
+                </ul>
+            <li><a href="#">Products</a> 
+                <ul class="drop">
+                    <li><a href="products/productone.html">product One</a></li>
+                    <li><a href="products/producttwo.html">product Two</a></li>
+                 </li>
+                </ul>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+       </nav>
+   </header>
+   
+   <section class="banner">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.5394138003016!2d-80.44710748500113!3d43.44933457360826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b8b4818925959%3A0xb2b0b7098edd088b!2sStanley%20Park%20Mall!5e0!3m2!1sen!2sca!4v1612475924120!5m2!1sen!2sca" 
+     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+   
+<section class="content-holder"> 
+    <article class="content">
+        <main>
+            <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asp0eriores non cumque. Dignissimos ut maiores modi quidem aperiam delectus sequi, placeat, suscipit tenetur tempora iste vero nihil minima necessitatibus fuga.</p>
+            <div class="form">
+                <form name="myform">
+                    <table>
+                        <tr>
+                            <td>Name:</td>
+                            <td><input type="text" name="c_name" oninput="validation()"></td>
+                            <td id="message"></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td><input type="email" name="c_email" required></td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td><input type="tel" name="c_phone" required></td>
+                        </tr>
+                        <tr>
+                            <td>subject:</td>
+                            <td><input type="text" name="c_subj" required></td>
+                        </tr>
+                        <tr>
+                            <td>Message:</td>
+                            <td><textarea name="c_msg" cols="30" rows="5"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" name="c_send" value="Send Details"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </main>
+    </article>
+
+    <aside class="sidebar">
+        <div>
+            <h3>Widge</h3>
+            <ul>
+                <li><a href="#">2018</a></li>
+                <li><a href="#">2019</a></li>
+                <li><a href="#">2020</a></li>
+            </ul>
+        </div>
+    </aside>
+
+    <div class="clear-fix"></div>
+</section>
+
+<footer class="footer-holder">
+       <div class="footer-box">
+        <h3>Footer menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>Footer menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <h3>Footer menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-box">
+            <address>
+                <h3>Company Name</h3>
+                <p>#142, Webar St., Kitchener, N2H7D9, Canada</p>
+               <p>Email: <a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
+               <p>Phone: <a href="tel:454521214">454521214</a></p>
+            </address>
+        </div>
+        
+    <div class="clear-fix"></div>
+</footer>
+    <div class="copy">
+        <p>
+            <small>
+            copyright &copy;2021 All Rights Reserved. 
+            </small>
+        </p>
+    </div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="http://malsup.github.com/jquery.cycle2.js"></script>
+</body>
+<script src="js/custom.js"></script>
+</html>

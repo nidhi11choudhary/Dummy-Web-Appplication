@@ -1,2 +1,2 @@
 # Dummy-Web-Appplication
-Based on HTML5 and CSS3
+Aplication Based on HTML5 and CSS3
